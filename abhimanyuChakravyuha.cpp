@@ -68,23 +68,23 @@ bool canCrossTheChakravyuha(int ae, int k[], int b, int a)
 int main()
 {
   // test case 1
-  // int ae = 20;
-  // int k[] = {9, 8, 7, 4, 3, 2, 1, 1, 2, 3, 5};
-  // int b = 5;
-  // int a = 3;
-  // bool testcase = canCrossTheChakravyuha(ae, k, b, a);
-  // if(testcase)
-  // cout<<"Abhimanyu can cross the Chakravyuha\n";
-  // else
-  // cout<<"Abhimanyu can not cross the Chakravyuha"<<endl;
+  int ae = 20;
+  int k[] = {9, 8, 7, 4, 3, 2, 1, 1, 2, 3, 5};
+  int b = 5;
+  int a = 3;
+  bool testcase = canCrossTheChakravyuha(ae, k, b, a);
+  if(testcase)
+  cout<<"Abhimanyu can cross the Chakravyuha\n";
+  else
+  cout<<"Abhimanyu can not cross the Chakravyuha"<<endl;
 
   // test case 2
-  int ae = 15;
-  int k[] = {12, 8, 20, 5, 18, 10, 25, 3, 2, 4, 6};
-  int b = 2;
-  int a = 1;
-  bool testcase = canCrossTheChakravyuha(ae, k, b, a);
-  if (testcase)
+  int ae2 = 15;
+  int k2ndTest[] = {12, 8, 20, 5, 18, 10, 25, 3, 2, 4, 6};
+  int b2 = 2;
+  int a2 = 1;
+  bool testcase2 = canCrossTheChakravyuha(ae2, k2ndTest, b2, a2);
+  if (testcase2)
     cout << "Abhimanyu can cross the Chakravyuha\n";
   else
     cout << "Abhimanyu cannot cross the Chakravyuha" << endl;
